@@ -3,6 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E135F607-CFC1-47E7-B357-924D7A15737E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogTool.Cli", "src\LogTool.Cli\LogTool.Cli.csproj", "{4B99C7C4-4305-454A-AF2D-053ED1542AA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogTool.Application", "src\LogTool.Application\LogTool.Application.csproj", "{C0859E15-43C6-4D00-BA01-1E0D41B7B897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogTool.Infrastructure", "src\LogTool.Infrastructure\LogTool.Infrastructure.csproj", "{65C260DC-6BCB-48B7-96C8-123531EE2E75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogTool.Core", "src\LogTool.Core\LogTool.Core.csproj", "{2D755EAA-4564-4EB2-A863-E0407AE7D1C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3E85ADAA-0EDB-4441-92EB-D64F36FE6CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogTool.Core.Tests", "tests\LogTool.Core.Tests\LogTool.Core.Tests.csproj", "{B2094450-CB9E-4E11-8306-59EA0684EE49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +24,34 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B99C7C4-4305-454A-AF2D-053ED1542AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B99C7C4-4305-454A-AF2D-053ED1542AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B99C7C4-4305-454A-AF2D-053ED1542AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B99C7C4-4305-454A-AF2D-053ED1542AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0859E15-43C6-4D00-BA01-1E0D41B7B897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0859E15-43C6-4D00-BA01-1E0D41B7B897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0859E15-43C6-4D00-BA01-1E0D41B7B897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0859E15-43C6-4D00-BA01-1E0D41B7B897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C260DC-6BCB-48B7-96C8-123531EE2E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C260DC-6BCB-48B7-96C8-123531EE2E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C260DC-6BCB-48B7-96C8-123531EE2E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C260DC-6BCB-48B7-96C8-123531EE2E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D755EAA-4564-4EB2-A863-E0407AE7D1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D755EAA-4564-4EB2-A863-E0407AE7D1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D755EAA-4564-4EB2-A863-E0407AE7D1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D755EAA-4564-4EB2-A863-E0407AE7D1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2094450-CB9E-4E11-8306-59EA0684EE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2094450-CB9E-4E11-8306-59EA0684EE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2094450-CB9E-4E11-8306-59EA0684EE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2094450-CB9E-4E11-8306-59EA0684EE49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B99C7C4-4305-454A-AF2D-053ED1542AA2} = {E135F607-CFC1-47E7-B357-924D7A15737E}
+		{C0859E15-43C6-4D00-BA01-1E0D41B7B897} = {E135F607-CFC1-47E7-B357-924D7A15737E}
+		{65C260DC-6BCB-48B7-96C8-123531EE2E75} = {E135F607-CFC1-47E7-B357-924D7A15737E}
+		{2D755EAA-4564-4EB2-A863-E0407AE7D1C4} = {E135F607-CFC1-47E7-B357-924D7A15737E}
+		{B2094450-CB9E-4E11-8306-59EA0684EE49} = {3E85ADAA-0EDB-4441-92EB-D64F36FE6CEA}
 	EndGlobalSection
 EndGlobal
